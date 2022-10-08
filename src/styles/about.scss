@@ -1,0 +1,61 @@
+.about {
+    &__container {
+        margin-bottom: 276px;
+    }
+
+    &__subtitle {
+        font-size: 32px;
+        line-height: 39px;
+        font-weight: 700;
+
+        color: #3D3D3D;
+    }
+    
+
+    &__description {
+        font-size: 16px;
+        line-height: 20px;
+        font-weight: 600;
+        letter-spacing: 0.7em;
+        text-transform: uppercase;
+        text-align: center;
+
+        color: #474747;
+
+        margin-bottom: 27px;
+    }
+
+    &__title {
+        font-size: 46px;
+        line-height: 56px;
+        font-weight: 700;
+        text-align: center;
+
+        color: #2D2D2D;
+
+        margin-bottom: 110px;
+    }
+
+    &__text {
+        font-size: 16px;
+        line-height: 30px;
+        font-weight: 500;
+        margin-top: 20px;
+    }
+
+    &__wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+        max-width: 1428px;
+        margin: 0 auto;
+    }
+
+    &__list {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        margin-left: 180px;
+    }
+}

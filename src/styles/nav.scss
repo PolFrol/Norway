@@ -1,0 +1,30 @@
+.nav {
+    &__logo {
+        position: absolute;
+        top: 48px;
+        left: 76px;
+    }
+
+    &__link {
+        color: #ffffff;
+        font-size: 18px;
+        line-height: 22px;
+        font-weight: 600;
+
+        transition: opacity 0.3s ease;
+
+        &:hover {
+            opacity: 0.6;
+        }
+    }
+
+    &__list {
+        display: flex;
+        gap: 65px;
+
+        position: absolute;
+        left: 50%;
+        top: 58px;
+        transform: translate(-50%, 0);
+    }
+}

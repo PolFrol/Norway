@@ -1,0 +1,81 @@
+.act {
+    &__container {
+        margin-bottom: 198px;
+        margin-top: 137px;
+    }
+
+    &__img-wrapper {
+        display: flex;
+        justify-content: center;
+        gap: 104px;
+    }
+
+    &__img-container {
+        overflow: hidden;
+        border-radius: 8px;
+    }
+
+    &__img {
+        transition: transform 1s ease;
+        display: block;
+
+        &:hover {
+            transform: scale(1.2);
+        }
+    }
+
+    &__description {
+        font-size: 16px;
+        line-height: 20px;
+        font-weight: 600;
+        letter-spacing: 0.7em;
+        text-transform: uppercase;
+        text-align: center;
+
+        color: #474747;
+
+        margin-bottom: 27px;
+    }
+
+    &__title {
+        font-size: 46px;
+        line-height: 56px;
+        font-weight: 700;
+        text-align: center;
+
+        color: #2D2D2D;
+
+        margin-bottom: 110px;
+
+        &_hotel {
+            margin-bottom: 214px;
+        }
+    }
+
+    &__img-title {
+        font-size: 32px;
+        line-height: 39px;
+        font-weight: 600;
+
+        color: #fff;
+
+        margin-bottom: 9px;
+    }
+
+    &__img-descr {
+        font-size: 17px;
+        line-height: 21px;
+        font-weight: 500;
+        color: rgba(255, 255, 255, 0.6);
+    }
+
+    &__link {
+        position: relative;
+    }
+
+    &__info {
+        position: absolute;
+        bottom: 48px;
+        left: 38px;
+    }
+}
