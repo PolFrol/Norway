@@ -58,4 +58,15 @@
 
         margin-left: 180px;
     }
+
+    &__img {
+        width: 815px;
+        height: 610px;
+
+        background-image: url('../images/about-image.jpg');
+        background-repeat: no-repeat;
+        background-color: #959595;
+
+        border-radius: 10px;
+    }
 }
